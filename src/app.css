@@ -76,12 +76,15 @@
 }
 
 .deadline {
-  font-size: 12px;
+  font-size: 14px;
   padding-top: 4px;
 }
 
 .deadline span {
+  font-weight: bold;
   padding: 3px 8px;
+  border: solid 1px;
+  background-color: rgb(255 141 7);
   border-radius: 2px;
   display: inline-block;
 }
