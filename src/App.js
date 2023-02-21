@@ -37,7 +37,7 @@ function App() {
         </div>
 
         <div className="form-container">
-          <h2>Yeni Kişi</h2>
+          <h2 className="text-red-400">Yeni Kişi</h2>
           <PeopleForm kisiler={team} submitFn={handlePeopleSubmit} />
         </div>
       </div>
